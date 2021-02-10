@@ -1,0 +1,118 @@
+h1{
+    text-align: center;
+    background: black;
+    font-family: 'Jomhuria', cursive;
+    color: white;
+    font-size: 200px;
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtitle{
+    font-size: 50px;
+    height: 15px
+}
+.titlediv{
+    width: 400px;
+    margin: 0px;
+    border-top: 5px solid black;
+    border-bottom: 30px solid white
+}
+#eye-image{
+    margin-top: 50px;
+    width: 40%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+#intro{
+    font-family: fantasy;
+    font-size: 40px;
+    width: 50%;
+    float: right;
+    border: 5px double black;
+    padding: 5px;
+}
+#scir-img{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+#room-img{
+    margin-top: 50px;
+    width: 40%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+#va-img{
+    width: 30%;
+    float: right;
+    height: 400px
+}
+.right{
+    font-size: 40px;
+    width: 50%;
+    float: right;
+    font-family: 'Libre Baskerville', serif;
+}
+.left{
+    font-size: 40px;
+    width: 40%;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px
+}
+#sci-fu-img{
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ending{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center
+}
+#subd{
+    margin-top: 180px;
+    border-top: 5px solid black;
+    width: 50%
+}
+#subd2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 5px solid black;
+    width: 50%
+}
+#subd3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 5px solid black;
+    width: 30%
+}
+#intc-img{
+    margin-top: 50px;
+    width: 40%;
+    height: 400px;
+    margin-bottom: 150px;
+}
+#bookint-img{
+    width: 40%;
+    float: right;
+    height: 600px
+}
+.author{
+    width: 50%;
+    border: 5px dotted black;
+    padding: 5px
+}
+hr.solid-div {
+    margin-top: 10px;
+    border-top: 15px dashed rgb(51, 51, 51);
+    margin-bottom: 10px;
+  }
+footer{
+      font-size: 30px;
+      text-align: center;
+      color: black;
+      font-family: 'Pangolin', cursive;
+  }

@@ -1,7 +1,35 @@
 body{
-    background-color: thistle
+    background-color: rgba(216, 191, 216, 0.746)
 }
 h1{
     text-align: center;
-    color: cadetblue
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(173, 143, 212);
+    background: pink;
+}
+li{
+    font-size: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85%;
+    width: 75%;
+    border:10px solid white;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+p{
+    text-align: center;
+    background: white;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15px;
 }
