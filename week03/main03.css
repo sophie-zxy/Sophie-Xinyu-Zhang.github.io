@@ -1,4 +1,4 @@
-h1{
+header{
     text-align: center;
     background: black;
     font-family: 'Jomhuria', cursive;
@@ -20,14 +20,14 @@ h1{
     border-bottom: 30px solid white
 }
 #eye-image{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 40%;
     height: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 #intro{
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 20px;
     width: 50%;
     float: right;
     border: 5px double black;
@@ -35,47 +35,42 @@ h1{
 }
 #scir-img{
     width: 50%;
-    height: 400px;
+    height: 500px;
     float: right;
+}
+.room-image-container{
+    width: 60%;
+    margin-top: 30px;
+    display: inline-block;
+    vertical-align: middle;
 }
 #room-img{
-    margin-top: 50px;
-    width: 40%;
-    height: 400px;
-    margin-bottom: 50px;
+    vertical-align: top;
+    width: 100%
 }
-#va-img{
-    width: 30%;
+.right1{
+    font-size: 25px;
+    width: 35%;
     float: right;
-    height: 400px
+    font-family: 'Libre Baskerville', serif;
 }
 .right{
-    font-size: 40px;
+    font-size: 25px;
     width: 50%;
     float: right;
     font-family: 'Libre Baskerville', serif;
 }
 .left{
-    font-size: 40px;
+    font-size: 25px;
     width: 40%;
     font-family: 'Libre Baskerville', serif;
-    margin-bottom: 10px
-}
-#sci-fu-img{
-    margin-top: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 0px
 }
 #ending{
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;
     text-align: center
-}
-#subd{
-    margin-top: 180px;
-    border-top: 5px solid black;
-    width: 50%
 }
 #subd2{
     margin-top: 100px;
@@ -91,14 +86,15 @@ h1{
 }
 #intc-img{
     margin-top: 50px;
-    width: 40%;
+    width: 45%;
     height: 400px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 #bookint-img{
     width: 40%;
-    float: right;
-    height: 600px
+    height: 400px;
+    position: relative;
+    float: right
 }
 .author{
     width: 50%;
@@ -106,7 +102,7 @@ h1{
     padding: 5px
 }
 hr.solid-div {
-    margin-top: 10px;
+    margin-top: 80px;
     border-top: 15px dashed rgb(51, 51, 51);
     margin-bottom: 10px;
   }
