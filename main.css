@@ -1,35 +1,75 @@
-body{
+#site-body{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap: 2.5rem;
     background-color: #d9abac
 }
-h1{
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    background-color: white;
+    font-family: 'Redressed', cursive;
+    line-height: 1.12;
+    color: #d9abac
+}
+#header .top{
+    margin-top: 15px;
+    transition: transform 0.5s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+#header .top:hover{
+    transition: transform 0.5s;
+    transform: translateY(-10px)
+}
+#header #quote{
+    font-size: 1.5rem;
     text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    color: rgb(173, 143, 212);
-    background: pink;
+    padding-left: 1.5rem;
+    padding-bottom: 10px
 }
-li{
-    font-size: 20px;
-    font-family: 'Yusei Magic', sans-serif;
-    font-weight: bold;
-}
-
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 85%;
-    width: 75%;
-    border:10px solid white;
+    width: 80%;
+    margin-bottom: 15px;
     transition: 0.5s;
 }
 img:hover{
     transform: scale(1.1);
 }
-p{
-    text-align: center;
-    background: white;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
+#links{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+    grid-gap: 1.5rem;
+    padding-right: 5rem
+}
+#links div{
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Redressed', cursive;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+    text-decoration: underline overline;
+    line-height: 1.1;
+    opacity: 0.3;
+    transition: opacity 0.8s;
+
+}
+#links div:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s
 }
