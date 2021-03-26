@@ -63,4 +63,6 @@ body {
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
+  margin: 2rem;
+  line-height: 2;
 }
