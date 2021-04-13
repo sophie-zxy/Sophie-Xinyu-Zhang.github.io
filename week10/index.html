@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Snake Game </title>
+    <link rel="stylesheet" href="snake.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="snake.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="score">
+            <div id = "hi" style="color:red">User's</div>
+            <div>Current Score: <span id="current" style="color:#Fc9fcf">0</span>
+            </div>
+        </div>
+        <br>
+        <canvas id="myCanvas" width="550" height="450">
+        </canvas>
+        <div id = "scores">
+            Past Scores:
+            <ul id = "list">
+
+            </ul>
+        </div>
+        <div id = "type">
+            <p id = "pone">
+                Type in your name to start
+            </p>
+            <input type="text" id="input" placeholder="NAME">
+            <button id = "b1">Start</button>
+        </div>
+        <div id="gameover">
+            GAME OVER
+            <br>
+            Score: <span id="myfinal"></span>
+            <br>
+            <button id = "ha">Click To Re-Play</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
